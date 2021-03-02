@@ -1,0 +1,17 @@
+.person{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.cloud{
+    position:absolute;
+    top:0;
+    right: 0%;
+}
+
+.sun{
+    position: absolute;
+    top: 0;
+    left: 0;
+}

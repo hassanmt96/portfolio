@@ -2,64 +2,64 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Hassan Tariq | Software Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my portfolio site!', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello, my name is',
+  name: 'Hassan',
+  subtitle: 'And I am a Software Developer.',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'stand.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1FWmLp1Df2lxKL0-pd9Hkfe4NULI9uI-O/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'bijoo-screenshot.png',
+    title: 'Bijoo',
+    info: 'This is a fullstack horoscope application that ties birthstones to horoscopes for dynamic viewing of statistics for a user. ',
+    info2: 'It uses an AI technology within an API similar to the voice commands of Siri and Alexa to provide the user insight on their horoscope and birthstone.(Primary technologies used React and Flask)',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'melodie-img.png',
+    title: 'Melodie',
+    info: ' This is a music application where anyone can share their music or listen to others uploads.',
+    info2: 'Heavily inspired by SoundCloud, users can browse a homefeed, search for songs view user pages, and upload/edit songs.(React & Flask)',
+    url: 'https://melodie.herokuapp.com/',
+    repo: 'https://github.com/julia-richards/melodie', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    img: 'neoma-pic.png',
+    title: 'Neoma',
+    info: ' Neoma is a task management system that mirrors the abilites of Asana.',
+    info2: 'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
+    url: 'https://neoma-app.herokuapp.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'If you are interested in working together, please let me know :) ',
+  btn: 'talk to me',
+  email: 'hassanmt996@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +68,22 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/thisishassanity',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/hassan-tariq-1382b112b/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/hassanmt96',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
