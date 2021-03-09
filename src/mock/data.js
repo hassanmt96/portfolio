@@ -28,19 +28,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'bijoo-screenshot.png',
-    title: 'Bijoo',
-    info: 'This is a fullstack horoscope application that ties birthstones to horoscopes for dynamic viewing of statistics for a user. ',
-    info2: 'It uses an AI technology within an API similar to the voice commands of Siri and Alexa to provide the user insight on their horoscope and birthstone.(Primary technologies used React and Flask)',
-    url: '',
+    img: 'cardano-wiki.png',
+    title: 'Cardano-wiki',
+    info:
+      'This is a fullstack cryptocurrency tracking application that ties statistics and news coverage on the latest cryptos. ',
+    info2:
+      'It uses an AI technology within an API similar to the voice commands of Siri and Alexa to provide the user insight on their coin.(Primary technologies used React and Flask)',
+    url: 'https://vibrant-bardeen-740741.netlify.app',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'melodie-img.png',
     title: 'Melodie',
-    info: ' This is a music application where anyone can share their music or listen to others uploads.',
-    info2: 'Heavily inspired by SoundCloud, users can browse a homefeed, search for songs view user pages, and upload/edit songs.(React & Flask)',
+    info:
+      ' This is a music application where anyone can share their music or listen to others uploads.',
+    info2:
+      'Heavily inspired by SoundCloud, users can browse a homefeed, search for songs view user pages, and upload/edit songs.(React & Flask)',
     url: 'https://melodie.herokuapp.com/',
     repo: 'https://github.com/julia-richards/melodie', // if no repo, the button will not show up
   },
@@ -49,7 +53,8 @@ export const projectsData = [
     img: 'neoma-pic.png',
     title: 'Neoma',
     info: ' Neoma is a task management system that mirrors the abilites of Asana.',
-    info2: 'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
+    info2:
+      'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
     url: 'https://neoma-app.herokuapp.com/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },

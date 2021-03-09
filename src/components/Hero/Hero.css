@@ -1,17 +1,47 @@
-.person{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
 }
 
-.cloud{
-    position:absolute;
-    top:0;
-    right: 0%;
+.person {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
 
-.sun{
-    position: absolute;
-    top: 0;
-    left: 0;
+.cloud {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  height: 350px;
+  width: 900px;
+}
+
+.sun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 350px;
+  width: 350px;
+}
+
+@media only screen and (max-width: 480px) {
+  .cloud {
+    width: 25%;
+    margin: auto;
+    background-color: aqua;
+  }
+
+  .person {
+    width: 25%;
+    margin: auto;
+    background-color: blueviolet;
+  }
+
+  .sun {
+    width: 25%;
+    margin: auto;
+    background-color: darkolivegreen;
+  }
 }
