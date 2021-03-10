@@ -34,7 +34,7 @@ export const projectsData = [
       'This is a fullstack cryptocurrency tracking application that ties statistics and news coverage on the latest cryptos. ',
     info2:
       'It uses an AI technology within an API similar to the voice commands of Siri and Alexa to provide the user insight on their coin.(Primary technologies used React and Flask)',
-    url: 'https://vibrant-bardeen-740741.netlify.app',
+    url: 'https://www.cardanocoin.org/',
     repo: '', // if no repo, the button will not show up
   },
   {
