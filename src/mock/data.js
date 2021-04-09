@@ -42,7 +42,7 @@ export const projectsData = [
     img: 'melodie-img.png',
     title: 'Melodie',
     info:
-      ' This is a music application where anyone can share their music or listen to others uploads.',
+      ' This is a music streaming application where anyone can share their music or listen to others uploads.',
     info2:
       'Heavily inspired by SoundCloud, users can browse a homefeed, search for songs view user pages, and upload/edit songs.(React & Flask)',
     url: 'https://melodie.herokuapp.com/',

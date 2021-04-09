@@ -25,7 +25,7 @@ module.exports = {
         name: `Gatsby Simplefolio`,
         short_name: `Simplefolio`,
         start_url: `/`,
-        background_color: `#fff`,
+        background_color: `#EAE7FA`,
         theme_color: `#284185`,
         display: `standalone`,
         icon: 'src/images/favicon-32x32.png',

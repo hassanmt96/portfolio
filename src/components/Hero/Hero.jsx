@@ -3,10 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
-import waver from '../../images/waver.png'
-import clouds from '../../images/clouds.png'
-import sunshine from '../../images/sunshine.png'
-import './Hero.css'
+import './Hero.css';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -29,15 +26,8 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <div className='sun'>
-            <img src={sunshine} height={350} width={350} />
-          </div>
-        <div className="cloud">
-          <img src={clouds} height={350} width={900}/>
-        </div>
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Hassan.'}</span>
+            {title || 'Hi, my name is'} <span className="text-color-main">{name || 'Hassan.'}</span>
             <br />
             {subtitle || "I'm a Software Developer."}
           </h1>
@@ -50,9 +40,6 @@ const Header = () => {
               </Link>
             </span>
           </p>
-          <div className="person">
-        <img src={waver} height={400} width={400}/>
-        </div>
         </Fade>
       </Container>
     </section>

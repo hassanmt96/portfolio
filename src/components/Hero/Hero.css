@@ -25,23 +25,3 @@
   height: 350px;
   width: 350px;
 }
-
-@media only screen and (max-width: 480px) {
-  .cloud {
-    width: 25%;
-    margin: auto;
-    background-color: aqua;
-  }
-
-  .person {
-    width: 25%;
-    margin: auto;
-    background-color: blueviolet;
-  }
-
-  .sun {
-    width: 25%;
-    margin: auto;
-    background-color: darkolivegreen;
-  }
-}
