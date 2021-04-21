@@ -65,7 +65,7 @@ export const projectsData = [
     info:
       ' Gypsies Reef is an ecommerce application for corals and underwater supplies. The frontend was designed with the React framework and the backend is using GraphQL.',
     info2: '',
-    url: 'https://neoma-app.herokuapp.com/',
+    url: 'https://www.gypsiesreef.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
