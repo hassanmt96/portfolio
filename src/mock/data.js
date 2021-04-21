@@ -56,17 +56,17 @@ export const projectsData = [
     info2:
       'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
     url: 'https://neoma-app.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'neoma-pic.png',
-    title: 'next one',
-    info: ' Neoma is a task management system that mirrors the abilites of Asana.',
-    info2:
-      'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
+    img: 'LPS.jpg',
+    title: 'Gypsies Reef',
+    info:
+      ' Gypsies Reef is an ecommerce application for corals and underwater supplies. The frontend was designed with the React framework and the backend is using GraphQL.',
+    info2: '',
     url: 'https://neoma-app.herokuapp.com/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
