@@ -75,7 +75,7 @@ export const projectsData = [
     info:
       'This application is a platform for charity development and fund driven help for disasters.  ',
     info2: 'Technologies used: MongoDB, Express, React, NextJS',
-    url: 'https://www.gypsiesreef.com/',
+    url: '',
     repo: '', // if no repo, the button will not show up
   },
 ];
