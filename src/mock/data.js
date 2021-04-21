@@ -62,15 +62,15 @@ export const projectsData = [
     id: nanoid(),
     img: 'corals.png',
     title: 'Gypsies Reef',
-    info:
-      ' Gypsies Reef is an ecommerce application for corals and underwater supplies. The frontend was designed with the React framework and the backend is using GraphQL.',
-    info2: '',
+    info: ' Gypsies Reef is an ecommerce application for corals and underwater supplies.',
+    info2:
+      'Technologies used: designed with the React + Redux framework and the backend is using GraphQL.',
     url: 'https://www.gypsiesreef.com/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'yourSadaqah.png',
+    img: 'yS.png',
     title: '(Coming soon...) yourSadaqah',
     info:
       'This application is a platform for charity development and fund driven help for disasters.  ',
