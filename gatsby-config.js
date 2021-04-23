@@ -1,4 +1,13 @@
 module.exports = {
+  siteMetadata: {
+    title: 'Hassan Tariq',
+    titleTemplate: '',
+    description: 'Personal Portfolio Page of Hassan Tariq',
+    url: '', // No trailing slash allowed!
+    image: '/images/cover.png', // Path to your image you placed in the 'static' folder
+    twitterUsername: '',
+  },
+
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
@@ -12,6 +21,7 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
