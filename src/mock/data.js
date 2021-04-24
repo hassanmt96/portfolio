@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://drive.google.com/file/d/1FWmLp1Df2lxKL0-pd9Hkfe4NULI9uI-O/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1QbuzQ1mzjicMfrlVvYOmDOsUdWMHnrIq/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -35,7 +35,7 @@ export const projectsData = [
     info2:
       'It uses an AI technology within an API similar to the voice commands of Siri and Alexa to provide the user insight on their coin.(Primary technologies used React and Flask)',
     url: 'https://crypto-wiki.netlify.app/',
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/hassanmt96/crypto-wiki', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -44,19 +44,9 @@ export const projectsData = [
     info:
       ' This is a music streaming application where anyone can share their music or listen to others uploads.',
     info2:
-      'Heavily inspired by SoundCloud, users can browse a homefeed, search for songs view user pages, and upload/edit songs.(React & Flask)',
+      'Heavily inspired by SoundCloud, users can browse a homefeed, search for songs view user pages, and upload/edit songs. Technologies used: (React, Flask, PSQL database)',
     url: 'https://melodie.herokuapp.com/',
     repo: 'https://github.com/julia-richards/melodie', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'neoma-pic.png',
-    title: 'Neoma',
-    info: ' Neoma is a task management system that mirrors the abilites of Asana.',
-    info2:
-      'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
-    url: 'https://neoma-app.herokuapp.com/',
-    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -74,8 +64,18 @@ export const projectsData = [
     title: '(Coming soon...) yourSadaqah',
     info:
       'This application is a platform for charity development and fund driven help for disasters.  ',
-    info2: 'Technologies used: MongoDB, Express, React, NextJS',
+    info2: 'Technologies used: MongoDB, Express, & NextJS',
     url: '',
+    repo: 'https://github.com/hassanmt96/yoursadaqah', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'neoma-pic.png',
+    title: 'Neoma',
+    info: ' Neoma is a task management system that mirrors the abilites of Asana.',
+    info2:
+      'It provides you with a custom dashboard and the ability to set certain features such as assigning tasks to individual members on teams. (Currently it is offline for maintenance)',
+    url: 'https://neoma-app.herokuapp.com/',
     repo: '', // if no repo, the button will not show up
   },
 ];
