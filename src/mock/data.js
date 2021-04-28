@@ -60,13 +60,13 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'yS.png',
-    title: '(Coming soon...) yourSadaqah',
+    img: 'spaceX.png',
+    title: '(Coming soon...) SpaceX Satellite Tracker App',
     info:
-      'This application is a platform for charity development and fund driven help for disasters.  ',
-    info2: 'Technologies used: MongoDB, Express, & NextJS',
+      'This application is a tracker for all things Space X related, along with real-time updates using algorithms to notify visibility of starlink.  ',
+    info2: 'Technologies used: Next.js, TailwindCSS, Three.js, Apollo GraphQL',
     url: '',
-    repo: 'https://github.com/hassanmt96/yoursadaqah', // if no repo, the button will not show up
+    repo: 'https://github.com/clayreinhardt/spaceX-graphQL-nextJS', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
