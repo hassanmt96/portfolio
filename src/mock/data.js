@@ -65,7 +65,7 @@ export const projectsData = [
     info:
       'This application is a tracker for all things Space X related, along with real-time updates using algorithms to notify visibility of starlink.  ',
     info2: 'Technologies used: Next.js, TailwindCSS, Three.js, Apollo GraphQL',
-    url: '',
+    url: 'https://www.findspacex.com',
     repo: 'https://github.com/clayreinhardt/spaceX-graphQL-nextJS', // if no repo, the button will not show up
   },
   {
