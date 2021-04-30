@@ -37,6 +37,7 @@ export const projectsData = [
     url: 'https://crypto-wiki.netlify.app/',
     repo: 'https://github.com/hassanmt96/crypto-wiki', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
     img: 'melodie-img.png',
@@ -50,16 +51,6 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'corals.png',
-    title: 'Gypsies Reef',
-    info: ' Gypsies Reef is an ecommerce application for corals and underwater supplies.',
-    info2:
-      'Technologies used: designed with the React + Redux framework and the backend is using GraphQL.',
-    url: 'https://www.gypsiesreef.com/',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'spaceX.png',
     title: '(Coming soon...) SpaceX Satellite Tracker App',
     info:
@@ -68,6 +59,17 @@ export const projectsData = [
     url: 'https://www.findspacex.com',
     repo: 'https://github.com/clayreinhardt/spaceX-graphQL-nextJS', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'corals.png',
+    title: 'Gypsies Reef',
+    info: ' Gypsies Reef is an ecommerce application for corals and underwater supplies.',
+    info2:
+      'Technologies used: designed with the React + Redux framework and the backend is using GraphQL.',
+    url: 'https://www.gypsiesreef.com/',
+    repo: '', // if no repo, the button will not show up
+  },
+
   {
     id: nanoid(),
     img: 'neoma-pic.png',
